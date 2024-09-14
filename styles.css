@@ -1,0 +1,70 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #121212; /* Dark background for the body */
+    color: #e0e0e0; /* Light text color for better readability on dark background */
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #1c1c1c; /* Fixed darker navigation bar */
+    color: #e0e0e0;
+    padding: 10px 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e0e0e0;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff69b4; /* HotPink */
+}
+
+section {
+    padding: 100px 20px;
+    min-height: 100vh;
+}
+
+#home {
+    background: #AF47D2; /* SeaGreen */
+}
+
+#about {
+    background: #ED5AB3; /* SteelBlue */
+}
+
+#services {
+    background: #FF6969; /* SlateBlue */
+}
+
+#contact {
+    background: #3AA6B9; /* IndianRed */
+}
+
+.scrolled {
+    background: black; /* Keeping the navigation bar background fixed */
+}
+
